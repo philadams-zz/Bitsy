@@ -6,11 +6,13 @@
   <string name="content_intent_message">We\'re not currently doing anything when you just tap the notification outside an Action or number etc. :-)</string>
 
     <string name="action_notify_binary_basic">Binary (basic)</string>
+  <string name="action_notify_nrs11">NRS-11</string>
 
   <string name="notify_title">Time to report!</string>
 
-  <string name="notify_binary_basic_text">Have you hydrated within the last hour?</string>
+  <string name="notify_binary_basic_text">Have you had coffee within the last hour?</string>
   <string name="notify_binary_false">No</string>
   <string name="notify_binary_true">Yes</string>
+  <string name="notify_nrs_text">How happy are you right now?</string>
 
 </resources>

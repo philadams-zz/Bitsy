@@ -6,4 +6,8 @@
       android:title="@string/action_notify_binary_basic"
       android:orderInCategory="100"
       app:showAsAction="never" />
+  <item android:id="@+id/notify_nrs11"
+      android:title="@string/action_notify_nrs11"
+      android:orderInCategory="100"
+      app:showAsAction="never" />
 </menu>

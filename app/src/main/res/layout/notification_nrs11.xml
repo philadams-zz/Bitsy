@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <!-- NB weird and super frustrating background color bug for custom notification layouts:
+  https://code.google.com/p/android/issues/detail?id=23863&thanks=23863&ts=1325611036 -->
+
+  <TextView
+      android:id="@+id/prompt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/notify_nrs_text"
+      android:layout_centerHorizontal="true"
+      android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent.Title"
+      android:textColor="@android:color/black" />
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@id/prompt"
+      android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/nrs_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+
+    <TextView
+        android:id="@+id/nrs_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nrs_0"
+        android:text="1"
+        android:padding="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+
+    <TextView
+        android:id="@+id/nrs_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nrs_1"
+        android:text="2"
+        android:padding="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+
+    <TextView
+        android:id="@+id/nrs_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nrs_2"
+        android:text="3"
+        android:padding="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+
+    <TextView
+        android:id="@+id/nrs_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nrs_3"
+        android:text="4"
+        android:padding="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+
+    <TextView
+        android:id="@+id/nrs_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nrs_4"
+        android:text="5"
+        android:padding="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+
+    <TextView
+        android:id="@+id/nrs_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nrs_5"
+        android:text="6"
+        android:padding="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+
+    <TextView
+        android:id="@+id/nrs_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nrs_6"
+        android:text="7"
+        android:padding="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+
+    <TextView
+        android:id="@+id/nrs_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nrs_7"
+        android:text="8"
+        android:padding="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+
+    <TextView
+        android:id="@+id/nrs_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nrs_8"
+        android:text="9"
+        android:padding="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+
+    <TextView
+        android:id="@+id/nrs_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nrs_9"
+        android:text="10"
+        android:padding="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+
+  </RelativeLayout>
+</RelativeLayout>
