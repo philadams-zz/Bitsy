@@ -2,11 +2,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
-  <item android:id="@+id/notify_binary_basic"
+  <item
+      android:id="@+id/notify_binary_basic"
       android:title="@string/action_notify_binary_basic"
       android:orderInCategory="100"
       app:showAsAction="never" />
-  <item android:id="@+id/notify_nrs11"
+  <item
+      android:id="@+id/notify_nrs11"
       android:title="@string/action_notify_nrs11"
       android:orderInCategory="100"
       app:showAsAction="never" />

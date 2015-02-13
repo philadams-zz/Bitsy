@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Bitsy</string>
-    <string name="introduction">Designing interactions for the tiniest of self-report moments.</string>
+  <string name="app_name">Bitsy</string>
+  <string name="introduction">Designing interactions for the tiniest of self-report moments.</string>
   <string name="content_intent_message">We\'re not currently doing anything when you just tap the notification outside an Action or number etc. :-)</string>
 
-    <string name="action_notify_binary_basic">Binary (basic)</string>
+  <string name="action_notify_binary_basic">Binary (basic)</string>
   <string name="action_notify_nrs11">NRS-11</string>
 
   <string name="notify_title">Time to report!</string>

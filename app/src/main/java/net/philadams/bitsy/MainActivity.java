@@ -58,7 +58,8 @@ public class MainActivity extends ActionBarActivity {
     if (intent.hasExtra(Constants.KEY_NRS_RESPONSE)) {
       int nrsResponse = intent.getIntExtra(Constants.KEY_NRS_RESPONSE, -1);
       TextView messageAlert = (TextView) findViewById(R.id.message_alert);
-      messageAlert.setText(String.format("When asked \"%s\", you answered \"%d/10\".", getString(R.string.notify_nrs_text), nrsResponse));
+      messageAlert.setText(String.format("When asked \"%s\", you answered \"%d/10\".",
+          getString(R.string.notify_nrs_text), nrsResponse));
       messageAlert.setVisibility(View.VISIBLE);
       notificationManager.cancel(Constants.ID_NOTIFY_NRS);
       // TODO:philadams Meter-style update NRS notification RemoteView to highlight selected number
@@ -142,10 +143,10 @@ public class MainActivity extends ActionBarActivity {
     }
 
     // build and deploy notification
-    Notification.Builder mBuilder = new Notification.Builder(this)
-        .setSmallIcon(R.drawable.ic_launcher)
-        .setContentIntent(getMainActivityPendingIntent())
-        .setContent(notificationView);
+    Notification.Builder mBuilder =
+        new Notification.Builder(this).setSmallIcon(R.drawable.ic_launcher)
+            .setContentIntent(getMainActivityPendingIntent())
+            .setContent(notificationView);
     notificationManager.notify(Constants.ID_NOTIFY_NRS, mBuilder.build());
   }
 
