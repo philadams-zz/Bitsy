@@ -103,7 +103,7 @@ public class MainActivity extends ActionBarActivity {
     Notification.Builder mBuilder =
         new Notification.Builder(this).setContentTitle(getString(R.string.notify_title))
             .setContentText(getString(R.string.notify_binary_basic_text))
-            .setSmallIcon(R.drawable.ic_launcher)
+            .setSmallIcon(R.drawable.ic_bitsy_notify)
             .setContentIntent(getMainActivityPendingIntent());
 
     // notification yes/no actions
@@ -144,7 +144,7 @@ public class MainActivity extends ActionBarActivity {
 
     // build and deploy notification
     Notification.Builder mBuilder =
-        new Notification.Builder(this).setSmallIcon(R.drawable.ic_launcher)
+        new Notification.Builder(this).setSmallIcon(R.drawable.ic_bitsy_notify)
             .setContentIntent(getMainActivityPendingIntent())
             .setContent(notificationView);
     notificationManager.notify(Constants.ID_NOTIFY_NRS, mBuilder.build());
